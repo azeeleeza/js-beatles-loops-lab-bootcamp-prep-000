@@ -20,6 +20,6 @@ function iLoveTheBeatles(number){
   var howMuch = []
   do{
     howMuch.push("I love the Beatles!")
-    ++number
+    number++
   }  while(number < 15)
 }
