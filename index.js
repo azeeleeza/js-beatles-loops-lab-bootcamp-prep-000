@@ -1,7 +1,7 @@
 function theBeatlesPlay(musicians,instruments){
   var beatlesFacts = []
   for (let i = 0; i < musicians.length && i < instruments.length; i++){
-    beatlesFacts += `$(musicians[i]) plays $(instruments[1])`
+    beatlesFacts += `$(musicians[i]) plays $(instruments[i])`
     }
     return beatlesFacts
 
