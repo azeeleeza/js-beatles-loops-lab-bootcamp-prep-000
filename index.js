@@ -6,19 +6,3 @@ function theBeatlesPlay(musicians,instruments){
     return beatlesFacts
 
 }
-
-function johnLennonFacts(array){
-  var johnLennonFacts = []
-  while (i < array.length) {
-        johnLennonFacts.push(array[i]+"!")
-        i--
-    }
-    return johnLennonFacts
-}
-
-function iLoveTheBeatles(number){
-  var howMuch = []
-  do{
-    howMuch.push("I love the Beatles!")
-  }  while(number < 15)
-}
