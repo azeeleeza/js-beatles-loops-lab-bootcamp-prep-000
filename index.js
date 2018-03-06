@@ -1,7 +1,7 @@
 function theBeatlesPlay(musicians,instruments){
   var beatlesFacts = []
   for (let i = 0; i < musicians.length && i < instruments.length; i++){
-    beatlesFacts += `$(musicians[i]) plays $(instruments[i])`
+    beatlesFacts.push(`$(musicians[i]) plays $(instruments[i])`)
     }
     return beatlesFacts
 
@@ -10,7 +10,7 @@ function theBeatlesPlay(musicians,instruments){
 function johnLennonFacts(array){
   var johnLennonFacts = []
   while (i < array.length) {
-        johnLennonFacts += array[i]+"!"
+        johnLennonFacts.push(array[i]+"!")
         i--
     }
     return johnLennonFacts
@@ -19,6 +19,6 @@ function johnLennonFacts(array){
 function iLoveTheBeatles(number){
   var howMuch = []
   do{
-    howMuch+="I love the Beatles!"
+    howMuch.push("I love the Beatles!")
   }  while(number < 15)
 }
