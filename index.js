@@ -15,3 +15,10 @@ function johnLennonFacts(array){
     }
     return johnLennonFacts
 }
+
+function iLoveTheBeatles(number){
+  var howMuch = []
+  do{
+    howMuch.push("I love the Beatles!")
+  }  while(number < 15)
+}
