@@ -3,6 +3,7 @@ function theBeatlesPlay(musicians,instruments){
   for (let i = 0; i < musicians.length && i < instruments.length; i++){
     beatlesFacts += `$(musicians[1]) plays $(instruments)`
     }
+    return beatlesFacts
 
 }
 
